@@ -19,3 +19,14 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+### Third-Party Libraries
+
+This project makes use of the following libraries, each of which has its own licensing terms:
+
+- **Coqui TTS**: Licensed under the MPL-2.0 license. See [LICENSE](./licenses/Coqui_LICENSE) for details.
+- **Vosk**: Licensed under the Apache-2.0 license. See [LICENSE](./licenses/Vosk_LICENSE) for details.
+- **SoundDevice**: Licensed under the MIT License. See [LICENSE](./licenses/SoundDevice_LICENSE) for details.
+- **Conda**: Licensed under the BSD 3-Clause License. See [LICENSE](./licenses/Conda_LICENSE) for details.
