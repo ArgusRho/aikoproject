@@ -1,7 +1,7 @@
 [Resources Used](notes/resources-used.md)
 
 # AIKO
-aiko voice assistant. a rebuild of ningyo assistant, because I lost the files as of 2024. I'm noob so I take notes a lot. AIKO, is my OC in my story.
+aiko voice assistant. a rebuild of ningyo assistant, because I lost the files as of 2024. I'm noob so I take notes a lot.
 
 # Files
 source codes have descriptive nomenclature in front of their name. listener, transcriber, commands, tts, and module. so we can replace the parts in case of deprecation. we also only need to change the import names (hopefully).

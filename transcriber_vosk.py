@@ -47,19 +47,11 @@ def extract_vosk_json(raw): #only take the sentence text
     text = result.get('text', '')
     return text
 
-#record and transcription mainly uses this one
-def transcription_sequence():
+#record and transcription uses this one
+def transcription_sequence(time=''):
     duration = 5  # Record for 5 seconds
-    audio_data = listen.record_audio(duration)
-    wav_filename = listen.save_audio_to_wav(audio_data)
-    transcription = transcribe_audio(wav_filename)
-    # Delete the temporary WAV file
-    os.remove(wav_filename)
-    print(f"[process] deleted temporary file: {wav_filename}")
-    return transcription
-
-def transcription_sequence_custom_time(time):
-    duration = time
+    if time: #if time is provided (not empty)
+        duration = time
     audio_data = listen.record_audio(duration)
     wav_filename = listen.save_audio_to_wav(audio_data)
     transcription = transcribe_audio(wav_filename)
